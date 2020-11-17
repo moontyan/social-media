@@ -1,0 +1,9 @@
+.incoming-message {
+    align-self: flex-start;
+    width: 40%;
+    padding: .6rem;
+    margin: 1rem 1rem;
+    background-color: #8E8DBE;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}

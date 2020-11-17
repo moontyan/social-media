@@ -1,0 +1,23 @@
+.dialogs-page {
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.dialogs-minimized {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    border-right: 1px solid lightgrey;
+    padding: .5rem;
+    width: 35%;
+}
+
+.messages-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+

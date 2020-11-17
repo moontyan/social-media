@@ -1,0 +1,32 @@
+.send-block {
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+}
+
+.send-block textarea {
+    height: 70%;
+    width: 100%;
+    border: none;
+    outline: none;
+    overflow: auto;
+    resize: none;
+    padding: .5rem;
+    vertical-align: center;
+    margin-right: .5rem;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.send-block button {
+    height: 65%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: #D81E5B;
+    padding: 0 .8rem;
+    text-align: start;
+}

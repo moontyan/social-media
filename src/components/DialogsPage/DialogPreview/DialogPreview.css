@@ -1,0 +1,27 @@
+.dialog-item {
+    display: flex;
+    background-color: white;
+    padding: 1rem;
+}
+
+.dialog-image img {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.dialog-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1rem;
+}
+
+.dialog-username {
+    font-weight: bolder;
+}
+
+.dialog-text {
+    margin-bottom: .5rem;
+}

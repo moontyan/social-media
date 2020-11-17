@@ -1,0 +1,12 @@
+
+.formValidation textarea{
+    border: 2px solid red;
+}
+
+.formValidation span {
+    background-color: #ff7a7a;
+    border-radius: 5px;
+    padding: 1rem;
+    color: #ad0000;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,29 @@
+.post-item {
+    display: flex;
+    background-color: white;
+    border-top: 1px solid lightgrey;
+    padding: 1rem;
+}
+
+.post-image img {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1rem;
+}
+
+.post-username {
+    font-weight: bolder;
+}
+
+.post-text {
+    margin-bottom: .5rem;
+    word-wrap: break-word;
+}

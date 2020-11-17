@@ -1,0 +1,34 @@
+.dialog-window {
+    display: flex;
+    flex-direction: column;
+}
+
+.dialog-header {
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+.dialog-header p {
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+.dialog-header img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.message-window {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid lightgrey;
+}
+
+
+
+
+

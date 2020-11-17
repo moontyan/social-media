@@ -1,0 +1,31 @@
+.nav-links {
+    padding: 1rem;
+}
+
+.nav-links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nav-links ul li {
+    list-style: none;
+    padding: 1rem;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links ul li svg {
+    margin-right: 1rem;
+}
+
+.nav-links ul li.active a{
+    color: #D81E5B;
+}
+
+.nav-links ul li.active svg{
+    color: #D81E5B;
+}
